@@ -12,7 +12,7 @@ library(foreign)
 library(ggplot2)
 d <- read.dta("~/Google Drive/My Drive/Psychologie/Uni/Seminare/Datenauswertung R/ARM_Data/earnings/heights.dta")
 head(d)
-
+TEST
 d$sex <- ifelse(d$sex == 1, "male", "female")
 
 ```
